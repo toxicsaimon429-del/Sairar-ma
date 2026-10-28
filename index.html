@@ -1,28 +1,63 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>For Saira ❤️</title>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>For My Arshi ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;600&display=swap');
-body{margin:0;font-family:'Poppins';background:#fff5f7}
-.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('IMG-20260816-WA0007.jpg');background-size:cover;background-position:center;color:#fff;text-align:center}
-.hero h1{font-family:'Great Vibes';font-size:4.5rem}
-.btn{margin-top:20px;padding:12px 30px;background:#ff4d6d;color:#fff;border-radius:30px;text-decoration:none}
-section{padding:40px 20px;max-width:800px;margin:auto;text-align:center}
-.letter{background:#fff;padding:30px;border-radius:20px;box-shadow:0 10px 30px rgba(255,77,109,.15);line-height:1.8;text-align:left}
-.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px}
-.gallery img{width:100%;height:320px;object-fit:cover;border-radius:18px}
-footer{padding:20px;background:#ff4d6d;color:#fff;margin-top:30px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#fff5f7;color:#333}
+.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('IMG-20260816-WA0007.jpg');background-size:cover;background-position:center top;color:#fff;text-align:center;padding:20px}
+.hero h1{font-family:'Great Vibes',cursive;font-size:5rem;line-height:1.2}
+.hero p{letter-spacing:4px;margin-top:10px;opacity:0.9}
+.btn{margin-top:28px;padding:15px 36px;background:#ff4d6d;color:#fff;border-radius:40px;border:none;font-size:18px;cursor:pointer;box-shadow:0 8px 20px rgba(255,77,109,.4)}
+.container{padding:40px 20px;max-width:850px;margin:auto;text-align:center}
+.letter{background:#fff;padding:38px 30px;border-radius:22px;box-shadow:0 12px 35px rgba(255,77,109,.15);line-height:2;text-align:left;margin-top:10px}
+.gallery{margin-top:35px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.gallery img{width:100%;height:360px;object-fit:cover;border-radius:18px;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+footer{margin-top:50px;padding:28px;background:#ff4d6d;color:#fff;text-align:center;letter-spacing:1px}
+#yt-player{position:fixed;top:0;left:0;width:1px;height:1px;opacity:0.01;pointer-events:none}
+.music-btn{position:fixed;bottom:22px;right:22px;background:#ff4d6d;color:#fff;border:none;width:62px;height:62px;border-radius:50%;font-size:28px;z-index:9999;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.3)}
+@media(max-width:600px){.hero h1{font-size:3.5rem}.gallery img{height:260px}}
 </style></head><body>
-<div class="hero"><h1>For My Love, Saira ❤️</h1><p>MY ARUHI</p><a href="#main" class="btn">Open My Heart 💌</a></div>
-<section id="main"><div class="letter"><h2 style="font-family:'Great Vibes';font-size:3rem;color:#ff4d6d;text-align:center">My Aruhi,</h2>
-<p>You are my peace, my happiness, my home. I love you today, tomorrow, forever.</p>
-<p style="font-family:'Great Vibes';font-size:2rem;color:#ff4d6d;text-align:right">Yours Only,<br>Toxic Sair</p></div>
-<h2 style="font-family:'Great Vibes';font-size:2.8rem;color:#ff4d6d;margin-top:50px">My Beautiful Aruhi</h2>
+
+<!-- GAN - I Wanna Be Yours -->
+<div id="yt-player"></div>
+<button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+<!-- 1. HERO - NAM -->
+<div class="hero">
+<h1>For My Love,<br>Arshi ❤️</h1>
+<p>MY ARUUH</p>
+<button class="btn" onclick="openHeart()">Open My Heart 💌</button>
+</div>
+
+<!-- 2. MAIN - CHITHI + PIC -->
+<div class="container" id="main">
+<div class="letter">
+<h2 style="font-family:'Great Vibes';font-size:3.4rem;color:#ff4d6d;text-align:center;">My Aruuh,</h2>
+<p>From the moment you came into my life, everything changed, Arshi. You are my peace, my happiness, my home.</p>
+<p>Every picture of you reminds me how lucky I am to have you. Your smile is my favorite thing in this world. I fall for you every single day, again and again.</p>
+<p><b>I love you today, tomorrow, and forever. You are my always, my Aruuh, my Arshi.</b></p>
+<p style="margin-top:18px">I wanna be yours... forever ❤️</p>
+<p style="font-family:'Great Vibes';font-size:2.4rem;color:#ff4d6d;text-align:right;margin-top:20px;">Yours Only,<br>Toxic Sair 💖</p>
+</div>
+
+<h2 style="font-family:'Great Vibes';font-size:3.2rem;color:#ff4d6d;margin-top:55px;">My Beautiful Arshi 😍</h2>
+<!-- 3. PIC - 5 TA PIC -->
 <div class="gallery">
 <img src="IMG-20260414-WA0002.jpg">
 <img src="IMG-20260816-WA0007.jpg">
 <img src="IMG-20260929-WA0021.jpg">
 <img src="IMG-20260929-WA0025.jpg">
 <img src="IMG_20261025_010444_103.jpg">
-</div></section>
-<footer>Made with ❤️ only for Saira</footer>
+</div>
+</div>
+
+<footer>Made with ❤️ only for Arshi (Aruuh) - I Wanna Be Yours</footer>
+
+<script>
+var tag=document.createElement('script');tag.src="https://www.youtube.com/iframe_api";document.head.appendChild(tag);
+var ytPlayer;var isPlaying=false;
+function onYouTubeIframeAPIReady(){ytPlayer=new YT.Player('yt-player',{height:'1',width:'1',videoId:'nyuo9-OjNNg',playerVars:{playsinline:1,loop:1,playlist:'nyuo9-OjNNg'}});}
+function openHeart(){document.getElementById('main').scrollIntoView({behavior:'smooth'});if(ytPlayer){ytPlayer.playVideo();isPlaying=true;}}
+function toggleMusic(){if(!ytPlayer)return;if(isPlaying){ytPlayer.pauseVideo();isPlaying=false;}else{ytPlayer.playVideo();isPlaying=true;}}
+</script>
 </body></html>
